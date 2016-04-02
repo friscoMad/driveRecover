@@ -3,8 +3,6 @@ var google = require('googleapis');
 var driveApi = require('./driveAPI');
 var RateLimiter = require('limiter').RateLimiter;
 
-var extension = ".encrypted";
-
 // Allow 6 requests per second, GDrive limit is 10 per second but measured on their side so as there are no atomic 
 // transaction better be on the safe side
 var limiter = new RateLimiter(6, 'second');
