@@ -1,0 +1,17 @@
+{
+  "name": "drive-recover",
+  "version": "1.0.0",
+  "description": "This program tries to recover Google Drive files after a ransomware disaster",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ramiro Aparicio <rapariciog@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "google-auth-library": "^0.9.7",
+    "googleapis": "^4.0.0",
+    "limiter": "^1.1.0"
+  }
+}
